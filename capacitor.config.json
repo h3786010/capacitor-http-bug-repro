@@ -1,0 +1,16 @@
+{
+  "appId": "com.example.app",
+  "appName": "test",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "allowNavigation": [
+      "mydomain"
+    ]
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}
